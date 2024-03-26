@@ -1,0 +1,93 @@
+#am{
+    height: 50vh;
+    width: 100%;
+}
+#f-content{
+    width: 100%;
+    background-color:#f0f9f8;
+    height:50vh;
+    display: flex;
+    padding: 5vh 7vw;
+    font-family: flat;
+}
+#f-content .box{
+    width: 25vw;
+}
+#box1 p{
+    margin-top: 20px;
+    font-size: 1vw;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.696);
+}
+#icon i{
+    font-size: 14px;
+    margin-right: 12px ;
+    color: rgba(0, 0, 0, 0.696);
+    border: 1px solid rgba(0, 0, 0, 0.696);
+    border-radius: 50%;
+    padding: 7px 7px;
+}
+#icon i:hover{
+    background-color: #52b9a6;
+    transition: ease-in-out;
+    color: white;
+    border:1px solid #52b9a6;
+}
+
+#box2{
+    padding: 0 5vw;
+}
+
+.box a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.696);
+    line-height: 1.5;
+    font-size: 1.1vw;
+   flex-direction: column;
+    
+}
+.box h1{
+    font-size: 1.8vw;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.details{
+    margin-top: 5vh;
+}
+.details h6{
+    line-height: 1.5;
+    font-size: 1vw;
+    font-weight: 300;
+}
+#f-btm{
+    background-color: #0ba085;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-family: flat;
+    width: 100%;
+    padding: 3vh 7vw;
+}
+#f-btm p{
+    color: white;
+    font-size: 1vw;
+}
+#text a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    margin-left: 3vw;
+}
+#f-btm i{
+    position: absolute;
+    border-radius:50% ;
+    right: 3%;
+    padding: 9px;
+    color: white;
+    background-color: #52b9a6;
+}
+
+#f-btm i:hover{
+    background-color: rgb(50, 50, 78) ;
+}
